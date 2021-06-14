@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link  rel="stylesheet" href="bootstrap-5.0.0-beta2-dist/css/bootstrap.min.css" >
+<style>body{
+  background-color:orange;
+  background-image:url("succ.jpg");
+  background-repeat:no-repeat;
+}
+   p,h1{
+     text-align:center;
+   }
+   #triangle{
+     margin-left:48%;
+     position:relative;
+     width:0;
+     border-bottom:50px solid black;
+     border-left:25px solid transparent;
+     border-right:25px solid transparent;
+     animation-name:trio;
+     animation-duration:1s;
+     animation-iteration-count:infinite;
+   }
+   @keyframes trio{
+       from{bottom:55px;}
+       to{botton:80px;border-bottom-color:aqua;}
+   }
+</style>
+</head>
+<body>
+    <div class="jumbotron">
+        <h1 class="display-4">Success!</h1>
+        <p class="lead">You're Subscribed!</p>
+        <hr class="my-4">
+        <p class="lead">
+          <a class="btn btn-primary btn-lg" href="https://us1.admin.mailchimp.com/audience/?ref=plums_nav&_ga=2.147122288.632151184.1623351758-1694841076.1623169207&_gac=1.250478196.1623351798.Cj0KCQjw8IaGBhCHARIsAGIRRYqFXUSw_L9YoUIySxkhz2TJemJlr1JJQ951pVRnmXD2ROPRdtE06Q0aAoD2EALw_wcB" role="button">Learn more</a>
+        </p><br><br>
+       <div id="triangle"></div>
+
+      </div>
+</body>
+</html>

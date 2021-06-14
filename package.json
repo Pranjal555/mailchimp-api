@@ -1,0 +1,16 @@
+{
+  "name": "newsletter2",
+  "version": "1.0.0",
+  "description": "A Newsletter website.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranjal Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express.js": "^1.0.0",
+    "request": "^2.88.2"
+  }
+}
